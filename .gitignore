@@ -1,0 +1,26 @@
+# Ignore virtual environments
+venv/
+env/
+pyvenv.cfg
+
+# Ignore datasets and model results
+results/
+qa_model/
+share/
+Lib/
+Include/
+Scripts/
+__pycache__/
+*.pyc
+*.pkl
+*.pt
+*.bin
+*.h5
+*.ckpt
+*.log
+*.csv
+
+# VSCode and Jupyter extras
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
